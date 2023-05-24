@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+header{
+  background-color: rgb(184, 182, 182);
+}
+
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+ul{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.header-top ul:first-child{
+  flex: 1;
+}
+li{
+  list-style: none;
+  margin-right: 20px;
+}
+.header-bottom{
+  background-color: white;
+}
+.header-bottom ul{
+  padding: 20px 0;
+}
+.header-bottom ul li{
+  margin-right: 30px;
+}
+.my-banner{
+  padding: 100px;
+  background-color: #489fb8;
+}
+.my-banner h1{
+  font-size: 80px;
+  margin: 0;
+  color: white;
+}
+.my-iphone-item {
+  margin-top: 50px;
+}
+.my-iphone-item img{
+  height: 55%;
+  margin-bottom: 10px;
+  padding: 30px 0;
+  border: 1px solid rgb(190, 186, 186);
+}
+.iphone-content p{
+  margin: 0;
+  text-align: left;
+  color: #489fb8;
+  font-weight: bold;
+}
+.iphone-content button{
+  background-color: #489fb8;
+  border: none;
+  height: 40px;
+  padding: 0 10px;
+  float: left;
+  margin-top: 10px;
+}
